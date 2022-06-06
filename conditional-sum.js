@@ -19,8 +19,8 @@ function conditionalSum(values, condition){
     }
     return oddSum;
   }
-  else {return 0}
-};
+  else {return 0};
+}
 
 console.log(conditionalSum([1, 2, 3, 4, 5], "even"));
 console.log(conditionalSum([1, 2, 3, 4, 5], "odd"));
